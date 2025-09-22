@@ -1,6 +1,3 @@
-# aws-iam-least-privilege-lab
-Hands-on lab testing least privilege in AWS IAM by creating an admin user and a read-only user, then testing access to S3.
-
 # 🔐 AWS IAM Least Privilege Lab
 
 ## 📌 Project Overview
