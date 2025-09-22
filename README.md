@@ -1,33 +1,40 @@
-# ☁️ AWS Labs by Christina Leoso
+# ☁️ AWS Security Labs by Christina Leoso
 
-Hands-on, beginner-friendly cloud security labs with clear steps, screenshots, and lessons learned.
+Hands-on cloud security projects showing real-world risks and defenses in AWS.  
+Each lab includes a step-by-step guide, screenshots, and key takeaways.
 
 ---
 
-## 🔐 Labs
+## 🔐 Completed Labs
 
 ### 1) IAM – Principle of Least Privilege
-**Repo:** https://github.com/christinaleoso/aws-iam-least-privilege-lab  
-**What I did:** Created two IAM users (Admin vs ReadOnly) and tested S3 actions to show how least privilege prevents misuse.  
-**Receipts:** Screenshots of success vs “Access Denied”.  
-**Takeaways:** Start with minimum permissions, add only what’s needed.
+📂 [iam-least-privilege](./iam-least-privilege)  
+**What I did:** Compared an Admin user vs. a ReadOnly user and tested S3 actions.  
+**Result:** Admin succeeded, ReadOnly hit “Access Denied.”  
+**Lesson:** Least privilege prevents misuse and accidents.
 
 ---
 
 ### 2) S3 – Public vs Private Buckets
-**Repo:** https://github.com/christinaleoso/aws-s3-bucket-securitylab  
-**What I did:** Created a private bucket, proved Access Denied, then (safely) made object public to demonstrate risk.  
-**Receipts:** Before/after screenshots + browser access proof.  
-**Takeaways:** Misconfigured buckets are a top breach cause—keep public access blocked by default.
+📂 [s3-bucket-security](./s3-bucket-security)  
+**What I did:** Created a private bucket and tested access. Then made it public to show the risk.  
+**Result:** Access denied when private, world-readable when public.  
+**Lesson:** Misconfigured S3 buckets are a common cause of breaches — keep Block Public Access enabled by default.
 
 ---
 
-## 📅 Roadmap (Next labs)
-- CloudTrail: log & trace S3 actions
-- Custom IAM policy for a single bucket path
-- MFA on IAM users (and enforce with policy)
+## 🗺️ Roadmap (Upcoming Labs)
+
+- 🔎 **CloudTrail Logging** – Trace S3 actions in logs.  
+- 🛡️ **Custom IAM Policy** – Grant object-level permissions (s3:GetObject only).  
+- 🔑 **MFA on IAM Users** – Test login flows with and without MFA.  
+- 🚨 **GuardDuty Alerts** – Trigger and investigate a simulated security finding.  
+- 🌐 **VPC Security Groups** – Test open vs. restricted inbound rules.  
 
 ---
 
-## 👋 About
-I’m Christina Leoso, pivoting into Cloud Security. Follow my labs here and on LinkedIn.
+## 👩‍💻 About Me
+I’m Christina Leoso, pivoting into Cloud Security.  
+These labs are part of my journey to build hands-on skills and share what I’m learning with others.  
+
+📌 Connect with me on LinkedIn: [linkedin.com/in/christinaleoso](https://linkedin.com/in/christinaleoso)
