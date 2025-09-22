@@ -1,4 +1,4 @@
-# 🔐 AWS 01-IAM Least Privilege Lab
+# 🔐 AWS IAM Least Privilege Lab
 
 ## 📌 Project Overview
 This project demonstrates the **Principle of Least Privilege** in AWS Identity and Access Management (IAM).  
