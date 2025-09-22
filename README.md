@@ -15,7 +15,7 @@ Hands-on, beginner-friendly cloud security labs with clear steps, screenshots, a
 ---
 
 ### 2) S3 – Public vs Private Buckets
-**Repo:** https://github.com/christinaleoso/aws-s3-bucket-security-lab  
+**Repo:** https://github.com/christinaleoso/aws-s3-bucket-securitylab  
 **What I did:** Created a private bucket, proved Access Denied, then (safely) made object public to demonstrate risk.  
 **Receipts:** Before/after screenshots + browser access proof.  
 **Takeaways:** Misconfigured buckets are a top breach cause—keep public access blocked by default.
