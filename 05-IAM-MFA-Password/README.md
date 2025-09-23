@@ -38,6 +38,19 @@ This lab strengthens AWS account security by:
 
 ---
 
+### 4. Password Policy Enforcement Test
+- Created a temporary user `TestUser-Policy`.  
+- At first login, attempted to set a weak password → rejected by AWS.  
+- Successfully logged in after setting a strong password that met the policy.  
+
+📸 Screenshot: Error when using weak password.
+<img width="1728" height="1117" alt="05-IAM-MFA-Weak" src="https://github.com/user-attachments/assets/af9c5aeb-06fb-4fce-b240-0a9938ad9b88" />
+📸 Screenshot: Successful login after strong password.
+<img width="1728" height="1117" alt="05-IAM-MFA-Strong" src="https://github.com/user-attachments/assets/3435d0d4-c2a0-4a89-a08e-5961e118cc81" />
+
+
+---
+
 ## ✅ Key Takeaways
 - Enforcing strong password policies reduces risk of compromised credentials.  
 - MFA is **critical for securing the root user**, which has full account access.  
